@@ -1,7 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -9,7 +8,7 @@ import org.testng.annotations.Test;
 
 //created javaClass
 //always with capital letter
-public class MainPage {
+public class Draft {
 
     //putting the variable in a separate String and outside the method in the class, other methods have access
     String mainUrl = "https://romanceabroad.com/";
